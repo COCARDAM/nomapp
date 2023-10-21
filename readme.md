@@ -39,7 +39,7 @@ NOMAPP esta creado con un backend en python con ayuda de Django y con el fronten
   Django
 </a>
 
-Rquiere <a href="https://www.python.org">Python</a> v3.8+ o una version mayor para correr.
+Requiere <a href="https://www.python.org">Python</a> v3.8+ o una version mayor para correr.
 Asi como de requiere que se cuente con <a href="https://pip.pypa.io/en/stable/installation/">pip</a> instalado el cual es manejador de paquetes de <a href="https://www.python.org">Python</a>
 
 - Se recomienda el uso de un entorno virtual para controlar de mejor manera las dependencias a instalar.
@@ -50,7 +50,7 @@ Asi como de requiere que se cuente con <a href="https://pip.pypa.io/en/stable/in
   pip install virtualenvwrapper
 
   # En caso de ser un sistema operativo windows
-  pip install virtaulenvwrapper-win
+  pip install virtualenvwrapper-win
   ```
   Luego que se tiene instalado el paquete se procede a realizar el ingresar el siguiente comando
 
@@ -70,7 +70,7 @@ Asi como de requiere que se cuente con <a href="https://pip.pypa.io/en/stable/in
   ```
   En la siguiente imagen podemos obeservar el uso del comando workon
   <img src="./core/static/imgs/workon.png" style="border-radius:5px">
-  gracias a plugins que se tienen instalados en mi terminal esta muestra los posibles entornos en el equipo sin embargo lo que continua luego del comapndo workon es el nombre del entorno en el cual se esta trabajando.
+  gracias a plugins que se tienen instalados en mi terminal esta muestra los posibles entornos en el equipo sin embargo lo que continua luego del comando workon es el nombre del entorno en el cual se esta trabajando.
 
 Instalar las dependencias, verifique el se encuentre el documento requirements.txt en la raiz del proyecto.
 ```sh
